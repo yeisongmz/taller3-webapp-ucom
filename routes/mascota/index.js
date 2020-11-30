@@ -7,7 +7,7 @@ var _ = require('lodash');
 
 let baseUrlApi="https://petstore.swagger.io/#/pet"
 
-
+//linea agregada para commit y push prueba
  //Ejemplo de cómo recibir párametros de tipo GET en la url, en este caso recibimos un parametro de tipo Query Param llamado name
  router.get('/mi_tienda/mascotas',cors(),async(req,res,next)=>{
     console.log("lista de mascotas");
